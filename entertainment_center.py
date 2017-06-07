@@ -1,27 +1,27 @@
 import media
 import fresh_tomatoes
 
-toy_story = media.Movie("toy story", "Story of a boy and his toys that come to life", "http://upload.wikimedia.org/wikimedia/en/1/13/Toy_Story.jpg",
-                        "https://www.youtube.com/watch?v=vwyZH85NQC4")
-#print(toy_story.storyline)
-#toy_story.show_trailer()
+wonder_woman = media.Movie("toy story", "Story of a boy and his toys that come to life",
+                        "http://bit.ly/2r3GjxC",
+                        "https://www.youtube.com/watch?v=1Q8fG0TtVAY", "comic")
 
 avatar = media.Movie("Avatar", "A marine on an alien planet",
-                     "http://upload.wikimedia.org/wikimedia/id/b/b0/Avatar-Teaser-Poster.jpg",
-                     "http://www.youtube.com/watch?v=-9ceBgWV8io")
+               "http://bit.ly/2rX0PPD",
+               "http://www.youtube.com/watch?v=-9ceBgWV8io", "Action")
 school_of_rock = media.Movie("school_of_rock", "Storyline",
-                            "http://upload.wikimedia.org/wikipedia/en/1/11/School_of_Rock_Poster.jpg",
-                            "https://www.youtube.com/watch?v=3PsUJFEBC74")
+                       "http://bit.ly/1E376FU",
+                       "https://www.youtube.com/watch?v=3PsUJFEBC74", "comedy")
 ratatouille = media.Movie("ratatouille", "Storyline",
-                          "http://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg",
-                          "https://www.youtube.com/watch?v=c3sBBRxDAqk")
+                    "http://bit.ly/2pm0aa7",
+                    "https://www.youtube.com/watch?v=c3sBBRxDAqk", "comedy")
 midnight_in_paris = media.Movie("Midnight in Paris", "Storyline",
-                                "http://upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg",
-                                "https://www.youtube.com/watch?v=atLg2wQQxvU")
+                    "http://bit.ly/1MG5PfN",
+                    "https://www.youtube.com/watch?v=atLg2wQQxvU", "Comedy")
 hunger_games = media.Movie("Hunger Games", "StoryLine",
-                            "http://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg",
-                            "https://www.youtube.com/watch?v=PbA63a7H0bo")
+                    "http://bit.ly/1KKnRuk",
+                    "https://www.youtube.com/watch?v=PbA63a7H0bo", "Adventure")
 
-movies = [toy_story, avatar, school_of_rock, ratatouille, midnight_in_paris, hunger_games]
+movies = [wonder_woman, avatar, school_of_rock, ratatouille,
+midnight_in_paris, hunger_games]
 
 fresh_tomatoes.open_movies_page(movies)
