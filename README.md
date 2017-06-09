@@ -8,7 +8,7 @@ Getting Started
 Download and run the project
 
 1. Get a copy of the code!
-git clone 
+   git clone https://github.com/saneelbhagya/moviepie.git
 2. cd moviepie
 3. python entertainment_center.py
 
