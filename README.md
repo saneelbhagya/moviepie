@@ -1,1 +1,7 @@
 # moviepie
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> origin/master
