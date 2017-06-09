@@ -10,4 +10,4 @@ Download and run the project
 1. Get a copy of the code!
    git clone https://github.com/saneelbhagya/moviepie.git
 2. cd moviepie
-3. python entertainment_center.py
+3. run "python entertainment_center.py"
